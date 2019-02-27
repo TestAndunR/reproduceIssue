@@ -1,0 +1,77 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "6884f53f-73ec-4c16-8104-7139097e2897": {
+        "id": "6884f53f-73ec-4c16-8104-7139097e2897",
+        "parent": null,
+        "name": "reproduceIssue",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "cb7ec852-8c24-4f88-a3e5-b9a43c868a96"
+        ],
+        "isRemovable": false,
+        "filePath": "reproduceIssue"
+      },
+      "cb7ec852-8c24-4f88-a3e5-b9a43c868a96": {
+        "id": "cb7ec852-8c24-4f88-a3e5-b9a43c868a96",
+        "parent": "6884f53f-73ec-4c16-8104-7139097e2897",
+        "name": "lambda.js",
+        "type": "LAMBDA_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "reproduceIssue/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "triggers": [],
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        }
+      }
+    },
+    "deletedFiles": [],
+    "rootNode": "6884f53f-73ec-4c16-8104-7139097e2897",
+    "openFiles": [
+      "cb7ec852-8c24-4f88-a3e5-b9a43c868a96"
+    ],
+    "currentFileId": "cb7ec852-8c24-4f88-a3e5-b9a43c868a96",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": {}
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "reproduceIssue",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1551242694234
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "reproduceIssue",
+      "url": "https://github.com/TestAndunR/reproduceIssue"
+    }
+  }
+}
